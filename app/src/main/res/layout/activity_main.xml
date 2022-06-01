@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/UOBLogo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/uob_logo" />
+
+            <Button
+                android:id="@+id/btnUOB"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="UOB"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#49517C" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/DBSLogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/dbs_logo" />
+
+                <Button
+                    android:id="@+id/btnDBS"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="DBS"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/OCBCLogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/ocbc_bank_logo" />
+
+                <Button
+                    android:id="@+id/btnOCBC"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="OCBC"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#B17373" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
